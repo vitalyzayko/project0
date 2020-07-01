@@ -1,16 +1,16 @@
 #banner {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 100%;
 }
 
 .max {
-  width: 90%;
-  margin-left: 5%;
+  width: 95%;
+  margin-left: 2.5%;
 }
 
 .index {
-  margin: 25px;
+  margin: 15px;
   background-color: lightblue;
 }
 @media (min-width: 700px) {
@@ -31,15 +31,15 @@
 .index p {
   text-align: left;
   color: darkblue;
-  margin: 10px;
-  font-size: 25px;
+  margin: 15px;
+  font-size: 20px;
 }
 .index li {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .table {
-  padding: 25px;
+  padding: 10px;
 }
 .table table {
   border: 2px solid blue;
@@ -58,16 +58,16 @@
 }
 
 .slb {
-  margin: 25px;
+  margin: 15px;
   background-color: #fff24020;
   text-align: center;
   color: darkblue;
 }
 .slb p {
-  text-align: left;
+  text-align: justify;
   color: darkblue;
-  margin: 10px;
-  font-size: 25px;
+  margin: 15px;
+  font-size: 20px;
 }
 .slb a {
   font-size: 20px;
@@ -75,29 +75,29 @@
 
 #slbdescr {
   text-align: justify;
-  margin: 25px;
+  margin: 15px;
   padding: 10px;
   font-size: 20px;
 }
 #slbdescr .row {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 #slbdescr img {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .ds {
-  margin: 25px;
+  margin: 15px;
   background-color: #00f60020;
   text-align: center;
   color: darkblue;
 }
 .ds p {
-  text-align: left;
+  text-align: justify;
   color: darkblue;
-  margin: 10px;
-  font-size: 25px;
+  margin: 15px;
+  font-size: 20px;
 }
 .ds a {
   font-size: 20px;
@@ -105,29 +105,29 @@
 
 #dsdescr {
   text-align: justify;
-  margin: 25px;
+  margin: 15px;
   padding: 10px;
   font-size: 20px;
 }
 #dsdescr .row {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 #dsdescr img {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .wp {
-  margin: 25px;
+  margin: 15px;
   background-color: #aa542320;
   text-align: center;
   color: darkblue;
 }
 .wp p {
-  text-align: left;
+  text-align: justify;
   color: darkblue;
-  margin: 10px;
-  font-size: 25px;
+  margin: 15px;
+  font-size: 20px;
 }
 .wp a {
   font-size: 20px;
@@ -135,16 +135,16 @@
 
 #wpdescr {
   text-align: justify;
-  margin: 25px;
+  margin: 15px;
   padding: 10px;
   font-size: 20px;
 }
 #wpdescr .row {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 #wpdescr img {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=mycss.css.map */

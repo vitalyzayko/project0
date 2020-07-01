@@ -4,56 +4,59 @@ $dsbgcolor: #00f60020;
 $wpbgcolor: #aa542320;
 $textcolor: darkblue;
 $bdr: 2px solid blue;
+$margin: 15px;
+$padding: 10px;
+$fsize: 20px;
 
 #banner {
-	padding-left: 25px; 
-	padding-right: 25px;
+	padding-left: $padding; 
+	padding-right: $padding;
 	width: 100%;
 }
 
 .max {
 	
-	width:90%;
-  	margin-left: 5%;
+	width:95%;
+  	margin-left: 2.5%;
 }
 
 .index {
-	margin: 25px;
+	margin: $margin;
 	background-color: $bgcolor;
 
 	@media (min-width: 700px) {
-                h1::before {
-                    content: "Hello Everyone, my name is Vitaly and I like to travel!";
-                }
-            }
+        h1::before {
+            content: "Hello Everyone, my name is Vitaly and I like to travel!";
+        }
+    }
 
-            @media (max-width: 699px) {
-                h1::before {
-                    content: "Hello Everyone!";
-                }
-            }
+    @media (max-width: 699px) {
+        h1::before {
+            content: "Hello Everyone!";
+        }
+    }
 
 	h1 {
 		text-align: center;
 		color: $textcolor;
-		padding: 10px;
+		padding: $padding;
 		
 	}
 	p {
 		text-align: left;
 		color: $textcolor;
-		margin: 10px;
-		font-size: 25px;
+		margin: $margin;
+		font-size: $fsize;
 	}
 	
 	li {
-		font-size: 25px;
+		font-size: $fsize;
 	}
 	
 }
 
 .table {
-	padding: 25px;
+	padding: $padding;
 
 	table{
 		border: $bdr;
@@ -73,20 +76,20 @@ $bdr: 2px solid blue;
 }
 
 .slb {
-	margin: 25px;
+	margin: $margin;
 	background-color: $slbbgcolor;
 	text-align: center;
 	color: $textcolor;
 
 	p {
-		text-align: left;
+		text-align: justify;
 		color: $textcolor;
-		margin: 10px;
-		font-size: 25px;
+		margin: $margin;
+		font-size: $fsize;
 	}
 	
 	a {
-		font-size: 20px;
+		font-size: $fsize;
 	}
 	
 }
@@ -94,34 +97,35 @@ $bdr: 2px solid blue;
 #slbdescr {
 
 	text-align: justify;
-	margin: 25px;
-	padding:10px;
-	font-size: 20px;
+	margin: $margin;
+	padding:$padding;
+	font-size: $fsize;
 	
 	.row {
-		margin-bottom: 10px;
+		margin-bottom: $margin;
 	}
 
 	img {
 		width: 100%;
-		margin-top: 10px;
+		margin-top: $margin;
 	}
 }
+
 .ds {
-	margin: 25px;
+	margin: $margin;
 	background-color: $dsbgcolor;
 	text-align: center;
 	color: $textcolor;
 
 	p {
-		text-align: left;
+		text-align: justify;
 		color: $textcolor;
-		margin: 10px;
-		font-size: 25px;
+		margin: $margin;
+		font-size: $fsize;
 	}
 	
 	a {
-		font-size: 20px;
+		font-size: $fsize;
 	}
 	
 }
@@ -129,35 +133,35 @@ $bdr: 2px solid blue;
 #dsdescr {
 
 	text-align: justify;
-	margin: 25px;
-	padding:10px;
-	font-size: 20px;
+	margin: $margin;
+	padding:$padding;
+	font-size: $fsize;
 	
 	.row {
-		margin-bottom: 10px;
+		margin-bottom: $margin;
 	}
 
 	img {
 		width: 100%;
-		margin-top: 10px;
+		margin-top: $margin;
 		
 	}
 }
 .wp {
-	margin: 25px;
+	margin: $margin;
 	background-color: $wpbgcolor;
 	text-align: center;
 	color: $textcolor;
 
 	p {
-		text-align: left;
+		text-align: justify;
 		color: $textcolor;
-		margin: 10px;
-		font-size: 25px;
+		margin: $margin;
+		font-size: $fsize;
 	}
 	
 	a {
-		font-size: 20px;
+		font-size: $fsize;
 	}
 	
 }
@@ -165,17 +169,17 @@ $bdr: 2px solid blue;
 #wpdescr {
 
 	text-align: justify;
-	margin: 25px;
-	padding:10px;
-	font-size: 20px;
+	margin: $margin;
+	padding:$padding;
+	font-size: $fsize;
 	
 	.row {
-		margin-bottom: 10px;
+		margin-bottom: $margin;
 	}
 
 	img {
 		width: 100%;
-		margin-top: 10px;
+		margin-top: $margin;
 		
 	}
 }
