@@ -1,0 +1,150 @@
+#banner {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+}
+
+.max {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.index {
+  margin: 25px;
+  background-color: lightblue;
+}
+@media (min-width: 700px) {
+  .index h1::before {
+    content: "Hello Everyone, my name is Vitaly and I like to travel!";
+  }
+}
+@media (max-width: 699px) {
+  .index h1::before {
+    content: "Hello Everyone!";
+  }
+}
+.index h1 {
+  text-align: center;
+  color: darkblue;
+  padding: 10px;
+}
+.index p {
+  text-align: left;
+  color: darkblue;
+  margin: 10px;
+  font-size: 25px;
+}
+.index li {
+  font-size: 25px;
+}
+
+.table {
+  padding: 25px;
+}
+.table table {
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+.table th {
+  border: 2px solid blue;
+  color: darkblue;
+  text-align: center;
+}
+.table td {
+  border: 2px solid blue;
+}
+.table img {
+  width: 100%;
+}
+
+.slb {
+  margin: 25px;
+  background-color: #fff24020;
+  text-align: center;
+  color: darkblue;
+}
+.slb p {
+  text-align: left;
+  color: darkblue;
+  margin: 10px;
+  font-size: 25px;
+}
+.slb a {
+  font-size: 20px;
+}
+
+#slbdescr {
+  text-align: justify;
+  margin: 25px;
+  padding: 10px;
+  font-size: 20px;
+}
+#slbdescr .row {
+  margin-bottom: 10px;
+}
+#slbdescr img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.ds {
+  margin: 25px;
+  background-color: #00f60020;
+  text-align: center;
+  color: darkblue;
+}
+.ds p {
+  text-align: left;
+  color: darkblue;
+  margin: 10px;
+  font-size: 25px;
+}
+.ds a {
+  font-size: 20px;
+}
+
+#dsdescr {
+  text-align: justify;
+  margin: 25px;
+  padding: 10px;
+  font-size: 20px;
+}
+#dsdescr .row {
+  margin-bottom: 10px;
+}
+#dsdescr img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.wp {
+  margin: 25px;
+  background-color: #aa542320;
+  text-align: center;
+  color: darkblue;
+}
+.wp p {
+  text-align: left;
+  color: darkblue;
+  margin: 10px;
+  font-size: 25px;
+}
+.wp a {
+  font-size: 20px;
+}
+
+#wpdescr {
+  text-align: justify;
+  margin: 25px;
+  padding: 10px;
+  font-size: 20px;
+}
+#wpdescr .row {
+  margin-bottom: 10px;
+}
+#wpdescr img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=mycss.css.map */

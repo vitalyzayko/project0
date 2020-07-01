@@ -1,0 +1,181 @@
+$bgcolor: lightblue;
+$slbbgcolor: #fff24020; 
+$dsbgcolor: #00f60020;
+$wpbgcolor: #aa542320;
+$textcolor: darkblue;
+$bdr: 2px solid blue;
+
+#banner {
+	padding-left: 25px; 
+	padding-right: 25px;
+	width: 100%;
+}
+
+.max {
+	
+	width:90%;
+  	margin-left: 5%;
+}
+
+.index {
+	margin: 25px;
+	background-color: $bgcolor;
+
+	@media (min-width: 700px) {
+                h1::before {
+                    content: "Hello Everyone, my name is Vitaly and I like to travel!";
+                }
+            }
+
+            @media (max-width: 699px) {
+                h1::before {
+                    content: "Hello Everyone!";
+                }
+            }
+
+	h1 {
+		text-align: center;
+		color: $textcolor;
+		padding: 10px;
+		
+	}
+	p {
+		text-align: left;
+		color: $textcolor;
+		margin: 10px;
+		font-size: 25px;
+	}
+	
+	li {
+		font-size: 25px;
+	}
+	
+}
+
+.table {
+	padding: 25px;
+
+	table{
+		border: $bdr;
+		border-collapse: collapse;
+	}
+	th {
+		border: $bdr;
+		color:$textcolor;
+		text-align: center;
+	}
+	td {
+		border: $bdr;
+	}
+	img {
+		width: 100%;
+	}
+}
+
+.slb {
+	margin: 25px;
+	background-color: $slbbgcolor;
+	text-align: center;
+	color: $textcolor;
+
+	p {
+		text-align: left;
+		color: $textcolor;
+		margin: 10px;
+		font-size: 25px;
+	}
+	
+	a {
+		font-size: 20px;
+	}
+	
+}
+
+#slbdescr {
+
+	text-align: justify;
+	margin: 25px;
+	padding:10px;
+	font-size: 20px;
+	
+	.row {
+		margin-bottom: 10px;
+	}
+
+	img {
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+.ds {
+	margin: 25px;
+	background-color: $dsbgcolor;
+	text-align: center;
+	color: $textcolor;
+
+	p {
+		text-align: left;
+		color: $textcolor;
+		margin: 10px;
+		font-size: 25px;
+	}
+	
+	a {
+		font-size: 20px;
+	}
+	
+}
+
+#dsdescr {
+
+	text-align: justify;
+	margin: 25px;
+	padding:10px;
+	font-size: 20px;
+	
+	.row {
+		margin-bottom: 10px;
+	}
+
+	img {
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+}
+.wp {
+	margin: 25px;
+	background-color: $wpbgcolor;
+	text-align: center;
+	color: $textcolor;
+
+	p {
+		text-align: left;
+		color: $textcolor;
+		margin: 10px;
+		font-size: 25px;
+	}
+	
+	a {
+		font-size: 20px;
+	}
+	
+}
+
+#wpdescr {
+
+	text-align: justify;
+	margin: 25px;
+	padding:10px;
+	font-size: 20px;
+	
+	.row {
+		margin-bottom: 10px;
+	}
+
+	img {
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+}
